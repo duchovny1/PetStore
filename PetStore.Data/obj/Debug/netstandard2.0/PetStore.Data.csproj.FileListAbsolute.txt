@@ -1,0 +1,5 @@
+C:\Users\User\source\repos\PetStore\PetStore.Data\bin\Debug\netstandard2.0\PetStore.Data.deps.json
+C:\Users\User\source\repos\PetStore\PetStore.Data\bin\Debug\netstandard2.0\PetStore.Data.dll
+C:\Users\User\source\repos\PetStore\PetStore.Data\obj\Debug\netstandard2.0\PetStore.Data.csprojAssemblyReference.cache
+C:\Users\User\source\repos\PetStore\PetStore.Data\obj\Debug\netstandard2.0\PetStore.Data.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\PetStore\PetStore.Data\obj\Debug\netstandard2.0\PetStore.Data.AssemblyInfo.cs

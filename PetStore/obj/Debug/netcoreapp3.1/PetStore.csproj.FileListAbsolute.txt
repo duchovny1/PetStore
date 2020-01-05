@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\PetStore\PetStore\bin\Debug\netcoreapp3.1\PetStore.exe
+C:\Users\User\source\repos\PetStore\PetStore\bin\Debug\netcoreapp3.1\PetStore.deps.json
+C:\Users\User\source\repos\PetStore\PetStore\bin\Debug\netcoreapp3.1\PetStore.runtimeconfig.json
+C:\Users\User\source\repos\PetStore\PetStore\bin\Debug\netcoreapp3.1\PetStore.runtimeconfig.dev.json
+C:\Users\User\source\repos\PetStore\PetStore\bin\Debug\netcoreapp3.1\PetStore.dll
+C:\Users\User\source\repos\PetStore\PetStore\bin\Debug\netcoreapp3.1\PetStore.pdb
+C:\Users\User\source\repos\PetStore\PetStore\obj\Debug\netcoreapp3.1\PetStore.csprojAssemblyReference.cache
+C:\Users\User\source\repos\PetStore\PetStore\obj\Debug\netcoreapp3.1\PetStore.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\PetStore\PetStore\obj\Debug\netcoreapp3.1\PetStore.AssemblyInfo.cs
+C:\Users\User\source\repos\PetStore\PetStore\obj\Debug\netcoreapp3.1\PetStore.dll
+C:\Users\User\source\repos\PetStore\PetStore\obj\Debug\netcoreapp3.1\PetStore.pdb
