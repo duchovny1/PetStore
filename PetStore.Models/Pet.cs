@@ -26,12 +26,12 @@
         public int CategoryId { get; set; }
         public Category Category { get; set; }
 
-        public int BreedId { get; set; }
+        public int? BreedId { get; set; }
         public Breed Breed { get; set; }
 
         public decimal Price { get; set; }
 
-        public int FoodId { get; set; }
+        public int? FoodId { get; set; }
         public Food Food { get; set; }
 
         public int? OrderId { get; set; }

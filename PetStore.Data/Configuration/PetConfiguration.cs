@@ -12,12 +12,12 @@ namespace PetStore.Data.Configuration
             builder.HasOne(b => b.Breed)
                  .WithMany(p => p.Pets)
                  .HasForeignKey(p => p.BreedId)
-                 .OnDelete(DeleteBehavior.Restrict);
+                 .OnDelete(DeleteBehavior.SetNull);
 
             builder.HasOne(o => o.Order)
                 .WithMany(p => p.Pets)
                 .HasForeignKey(fk => fk.OrderId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.SetNull);
         }
     }
 }

@@ -60,6 +60,11 @@ namespace PetStore.Services.Implementations
             .FirstOrDefault();
 
 
+        internal Brand GetByName(string name)
+          => this.dbContext
+                     .Brands
+                        .FirstOrDefault(x => x.Name.ToLower() == name.ToLower());
+
 
         public IEnumerable<BrandListingServiceModel> SearchByName(string name)
                  => this.dbContext.Brands
@@ -70,5 +75,7 @@ namespace PetStore.Services.Implementations
                 Name = name
             })
             .ToList();
+
+
     }
 }

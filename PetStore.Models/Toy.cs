@@ -15,14 +15,22 @@ namespace PetStore.Data.Models
         [MaxLength(DescriptionMaxLength)]
         public string Description { get; set; }
 
+
+        public decimal DistributorPrice { get; set; }
+
         public decimal Price { get; set; }
 
         public int BrandId { get; set; }
 
         public Brand Brand { get; set; }
+
         public int PetId { get; set; }
 
+        public Pet Pet { get; set; }
+
         public int CategoryId { get; set; }
+
+
 
         public Category Category { get; set; }
         public ICollection<ToyOrder> ToyOrders { get; set; } = new HashSet<ToyOrder>();
