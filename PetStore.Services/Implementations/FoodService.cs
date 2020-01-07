@@ -27,7 +27,7 @@
 
 
             //if profit is more than 500 %
-            if(profit < 0 || profit > 5)
+            if (profit < 0 || profit > 5)
             {
                 throw new ArgumentException("Profit should be between 0 and 500 procent!");
             }
@@ -78,14 +78,17 @@
             this.data.SaveChanges();
         }
 
+        public bool Exists(int foodId)
+                => this.data.Foods.Any(x => x.Id == foodId);
+
         public void SellFoodToUser(int foodId, int userId)
         {
-            if(!this.data.Foods.Any(f => f.Id == foodId))
+            if (!Exists(foodId))
             {
                 throw new ArgumentException("There is no such food with given id in database!");
             }
 
-            if(!this.userService.Exists(userId))
+            if (!this.userService.Exists(userId))
             {
                 throw new ArgumentException("There is no such user with given id in database!");
             }

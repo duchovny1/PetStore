@@ -167,7 +167,14 @@
         },
         "frameworks": {
           "netstandard2.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\User\\source\\repos\\PetStore\\PetStore.Data\\PetStore.Data.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\PetStore\\PetStore.Data\\PetStore.Data.csproj"
+              },
+              "C:\\Users\\User\\source\\repos\\PetStore\\PetStore.Models\\PetStore.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\PetStore\\PetStore.Models\\PetStore.Data.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

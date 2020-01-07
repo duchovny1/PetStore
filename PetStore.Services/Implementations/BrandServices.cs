@@ -41,23 +41,6 @@ namespace PetStore.Services.Implementations
 
         }
 
-        public BrandWithToysServiceModel FindByIdWithToys(int id)
-             => this.dbContext
-            .Brands
-            .Where(br => br.Id == id)
-            .Select(br => new BrandWithToysServiceModel
-            {
-                Name = br.Name,
-                Toys = br.Toys
-                         .Select(t => new ToyListingServiceModel
-                         {
-                             Id = t.Id,
-                             Name = t.Name,
-                             Price = t.Price,
-                             TotalOrders = t.ToyOrders.Count
-                         }).ToList()
-            })
-            .FirstOrDefault();
 
 
         internal Brand GetByName(string name)
@@ -76,6 +59,26 @@ namespace PetStore.Services.Implementations
             })
             .ToList();
 
+        public bool Exists(int brandId)
+             => this.dbContext.Brands.Any(x => x.Id == brandId);
+
+        public BrandsWithToysService FindByIdWithToys(int id)
+          => this.dbContext
+                         .Brands
+                         .Where(br => br.Id == id)
+                         .Select(br => new BrandsWithToysService
+                         {
+                             Name = br.Name,
+                             Toys = br.Toys
+                          .Select(t => new ToyListingServiceModel
+                          {
+                              Id = t.Id,
+                              Name = t.Name,
+                              Price = t.Price,
+                              TotalOrders = t.ToyOrders.Count
+                          }).ToList()
+                         })
+            .FirstOrDefault();
 
     }
 }

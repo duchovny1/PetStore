@@ -1,5 +1,6 @@
 ﻿using PetStore.Data;
 using PetStore.Data.Models;
+using System;
 using System.Linq;
 
 namespace PetStore.Services.Implementations
@@ -20,6 +21,11 @@ namespace PetStore.Services.Implementations
 
         public void Register(string name, string email)
         {
+            if(!this.data.Users.Any(x => x.Email == email))
+            {
+                throw new ArgumentException("There is already a registration with this email!");
+            }
+
             var user = new User()
             {
                 Name = name,

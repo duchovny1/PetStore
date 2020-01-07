@@ -1340,6 +1340,10 @@
       "PetStore.Services.Models/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "PetStore.Data": "1.0.0",
+          "PetStore.Data.Models": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/PetStore.Services.Models.dll": {}
         },
