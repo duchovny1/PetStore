@@ -50,14 +50,16 @@ namespace PetStore.Services.Implementations
 
 
         public IEnumerable<BrandListingServiceModel> SearchByName(string name)
-                 => this.dbContext.Brands
-            .Where(x => x.Name.ToLower().Contains(name.ToLower()))
-            .Select(x => new BrandListingServiceModel
-            {
-                Id = x.Id,
-                Name = name
-            })
-            .ToList();
+        {
+            return this.dbContext.Brands
+                       .Where(x => x.Name.ToLower().Contains(name.ToLower()))
+                       .Select(x => new BrandListingServiceModel
+                       {
+                           Id = x.Id,
+                           Name = name
+                       })
+                       .ToList();
+        }
 
         public bool Exists(int brandId)
              => this.dbContext.Brands.Any(x => x.Id == brandId);

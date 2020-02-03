@@ -6853,23 +6853,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Repos\\packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\PetStore\\PetStore.Data\\PetStore.Data.csproj",
+      "projectUniqueName": "C:\\Repos\\PetStore\\PetStore.Data\\PetStore.Data.csproj",
       "projectName": "PetStore.Data",
-      "projectPath": "C:\\Users\\User\\source\\repos\\PetStore\\PetStore.Data\\PetStore.Data.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\PetStore\\PetStore.Data\\obj\\",
+      "projectPath": "C:\\Repos\\PetStore\\PetStore.Data\\PetStore.Data.csproj",
+      "packagesPath": "C:\\Repos\\packages",
+      "outputPath": "C:\\Repos\\PetStore\\PetStore.Data\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Repos\\NuGet.Config",
+        "C:\\Users\\rptlonfire\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6882,8 +6879,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\PetStore\\PetStore.Models\\PetStore.Data.Models.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\PetStore\\PetStore.Models\\PetStore.Data.Models.csproj"
+            "C:\\Repos\\PetStore\\PetStore.Models\\PetStore.Data.Models.csproj": {
+              "projectPath": "C:\\Repos\\PetStore\\PetStore.Models\\PetStore.Data.Models.csproj"
             }
           }
         }
@@ -6923,7 +6920,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

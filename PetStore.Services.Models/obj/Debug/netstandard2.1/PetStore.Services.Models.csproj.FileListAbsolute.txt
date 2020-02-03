@@ -5,3 +5,16 @@ C:\Users\User\source\repos\PetStore\PetStore.Services.Models\obj\Debug\netstanda
 C:\Users\User\source\repos\PetStore\PetStore.Services.Models\obj\Debug\netstandard2.1\PetStore.Services.Models.AssemblyInfo.cs
 C:\Users\User\source\repos\PetStore\PetStore.Services.Models\obj\Debug\netstandard2.1\PetStore.Services.Models.dll
 C:\Users\User\source\repos\PetStore\PetStore.Services.Models\obj\Debug\netstandard2.1\PetStore.Services.Models.pdb
+C:\Repos\PetStore\PetStore.Services.Models\obj\Debug\netstandard2.1\PetStore.Services.Models.csprojAssemblyReference.cache
+C:\Repos\PetStore\PetStore.Services.Models\obj\Debug\netstandard2.1\PetStore.Services.Models.AssemblyInfoInputs.cache
+C:\Repos\PetStore\PetStore.Services.Models\obj\Debug\netstandard2.1\PetStore.Services.Models.AssemblyInfo.cs
+C:\Repos\PetStore\PetStore.Services.Models\obj\Debug\netstandard2.1\PetStore.Services.Models.dll
+C:\Repos\PetStore\PetStore.Services.Models\obj\Debug\netstandard2.1\PetStore.Services.Models.pdb
+C:\Repos\PetStore\PetStore.Services.Models\bin\Debug\netstandard2.1\PetStore.Services.Models.deps.json
+C:\Repos\PetStore\PetStore.Services.Models\bin\Debug\netstandard2.1\PetStore.Services.Models.dll
+C:\Repos\PetStore\PetStore.Services.Models\bin\Debug\netstandard2.1\PetStore.Services.Models.pdb
+C:\Repos\PetStore\PetStore.Services.Models\bin\Debug\netstandard2.1\PetStore.Data.dll
+C:\Repos\PetStore\PetStore.Services.Models\bin\Debug\netstandard2.1\PetStore.Data.Models.dll
+C:\Repos\PetStore\PetStore.Services.Models\bin\Debug\netstandard2.1\PetStore.Data.pdb
+C:\Repos\PetStore\PetStore.Services.Models\bin\Debug\netstandard2.1\PetStore.Data.Models.pdb
+C:\Repos\PetStore\PetStore.Services.Models\obj\Debug\netstandard2.1\PetStore.Services.Models.csproj.CopyComplete

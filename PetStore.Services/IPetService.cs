@@ -1,5 +1,7 @@
 ﻿using PetStore.Data.Models;
+using PetStore.Services.Models.Pets;
 using System;
+using System.Collections.Generic;
 
 namespace PetStore.Services
 {
@@ -9,5 +11,13 @@ namespace PetStore.Services
             int breedId, int categoryId);
 
         void SellPet(int userId, int petId);
+
+        IEnumerable<PetListingServiceModel> All(int page = 1);
+
+        int Total();
+
+        PetDetailsServiceModel Details(int id);
+        bool Delete(int id);
     }
+
 }

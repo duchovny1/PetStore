@@ -919,6 +919,10 @@
         }
       },
       "PetStore.Services.Models/1.0.0": {
+        "dependencies": {
+          "PetStore.Data": "1.0.0",
+          "PetStore.Data.Models": "1.0.0"
+        },
         "runtime": {
           "PetStore.Services.Models.dll": {}
         }

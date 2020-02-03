@@ -1,12 +1,16 @@
 ﻿namespace PetStore.Services.Implementations
 {
     using System;
+    using System.Collections.Generic;
     using System.Linq;
     using PetStore.Data;
     using PetStore.Data.Models;
+    using PetStore.Services.Models.Pets;
 
     public class PetService : IPetService
     {
+        private const int pageSizes = 25;
+
         private readonly PetStoreDbContext data;
         IBreedService breedService;
         ICategoryService categoryService;
@@ -65,7 +69,6 @@
             var pet = this.data.Pets
                 .First(p => p.Id == petId);
 
-
             var order = new Order
             {
                 PurchaseDate = DateTime.Now,
@@ -82,5 +85,51 @@
 
         public bool Exists(int petId)
                 => this.data.Pets.Any(x => x.Id == petId);
+
+        public IEnumerable<PetListingServiceModel> All(int page = 1)
+        {
+            return this.data
+                .Pets
+                .Skip((page - 1) * pageSizes)
+                .Take(pageSizes)
+                .Select(p => new PetListingServiceModel
+                {
+                    Id = p.Id,
+                    Price = p.Price,
+                    Category = p.Category.Name,
+                    Breed = p.Breed.Name
+                })
+                .ToList();
+                
+        }
+
+        public int Total() => this.data.Pets.Count();
+
+        public PetDetailsServiceModel Details(int id)
+        {
+            return this.data.Pets.Where(x => x.Id == id)
+                .Select(pet => new PetDetailsServiceModel
+                {
+                    Id = pet.Id,
+                    Breed = pet.Breed.Name,
+                    Price = pet.Price
+                }).FirstOrDefault();
+        }
+
+        public bool Delete(int id)
+        {
+            var pet = this.data.Pets.Find(id);
+
+            if (pet == null)
+            {
+                return false;
+            }
+
+            this.data.Pets.Remove(pet);
+            this.data.SaveChanges();
+
+            return true;
+
+        }
     }
 }

@@ -1,23 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\PetStore\\PetStore.Models\\PetStore.Data.Models.csproj": {}
+    "C:\\Repos\\PetStore\\PetStore.Models\\PetStore.Data.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\PetStore\\PetStore.Models\\PetStore.Data.Models.csproj": {
+    "C:\\Repos\\PetStore\\PetStore.Models\\PetStore.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\PetStore\\PetStore.Models\\PetStore.Data.Models.csproj",
+        "projectUniqueName": "C:\\Repos\\PetStore\\PetStore.Models\\PetStore.Data.Models.csproj",
         "projectName": "PetStore.Data.Models",
-        "projectPath": "C:\\Users\\User\\source\\repos\\PetStore\\PetStore.Models\\PetStore.Data.Models.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\PetStore\\PetStore.Models\\obj\\",
+        "projectPath": "C:\\Repos\\PetStore\\PetStore.Models\\PetStore.Data.Models.csproj",
+        "packagesPath": "C:\\Repos\\packages",
+        "outputPath": "C:\\Repos\\PetStore\\PetStore.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Repos\\NuGet.Config",
+          "C:\\Users\\rptlonfire\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

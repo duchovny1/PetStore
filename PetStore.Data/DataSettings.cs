@@ -2,6 +2,6 @@
 {
     public class DataSettings
     {
-        public const string ConnectionString = "Server=.\\SQLEXPRESS;Database=PetStoreCatalog;Integrated Security=true";
+        public const string ConnectionString = "Server=DESKTOP-L4J6POG;Database=PetStoreCatalog;Integrated Security=true";
     }
 }

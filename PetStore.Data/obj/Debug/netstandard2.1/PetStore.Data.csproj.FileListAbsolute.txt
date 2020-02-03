@@ -9,3 +9,14 @@ C:\Users\User\source\repos\PetStore\PetStore.Data\obj\Debug\netstandard2.1\PetSt
 C:\Users\User\source\repos\PetStore\PetStore.Data\obj\Debug\netstandard2.1\PetStore.Data.csproj.CopyComplete
 C:\Users\User\source\repos\PetStore\PetStore.Data\obj\Debug\netstandard2.1\PetStore.Data.dll
 C:\Users\User\source\repos\PetStore\PetStore.Data\obj\Debug\netstandard2.1\PetStore.Data.pdb
+C:\Repos\PetStore\PetStore.Data\bin\Debug\netstandard2.1\PetStore.Data.deps.json
+C:\Repos\PetStore\PetStore.Data\bin\Debug\netstandard2.1\PetStore.Data.dll
+C:\Repos\PetStore\PetStore.Data\bin\Debug\netstandard2.1\PetStore.Data.pdb
+C:\Repos\PetStore\PetStore.Data\bin\Debug\netstandard2.1\PetStore.Data.Models.dll
+C:\Repos\PetStore\PetStore.Data\bin\Debug\netstandard2.1\PetStore.Data.Models.pdb
+C:\Repos\PetStore\PetStore.Data\obj\Debug\netstandard2.1\PetStore.Data.csprojAssemblyReference.cache
+C:\Repos\PetStore\PetStore.Data\obj\Debug\netstandard2.1\PetStore.Data.AssemblyInfoInputs.cache
+C:\Repos\PetStore\PetStore.Data\obj\Debug\netstandard2.1\PetStore.Data.AssemblyInfo.cs
+C:\Repos\PetStore\PetStore.Data\obj\Debug\netstandard2.1\PetStore.Data.csproj.CopyComplete
+C:\Repos\PetStore\PetStore.Data\obj\Debug\netstandard2.1\PetStore.Data.dll
+C:\Repos\PetStore\PetStore.Data\obj\Debug\netstandard2.1\PetStore.Data.pdb
