@@ -3,9 +3,28 @@
 
 @model AllPetsViewModel
 
+    <link rel="stylesheet bootstrap"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css " />
+    
+    
+
+    <div>
+        <div class="jumbotron text-white jumbotron-image shadow" style="background-image: url(https://image.shutterstock.com/image-vector/people-buying-pets-pet-store-600w-1090121084.jpg);
+             background-size: cover;">
+            <h2 class="mb-4">
+                Welcome to our pet store!
+            </h2>
+            <p class="mb-4">
+                Check our catalog of animals, foods and toys! :))
+            </p>
+        </div>
+    </div>
+
+
+
 <h1>All</h1>
 
-<div>
+<div >
     <a href="/Pets/All?page=@Model.PreviousPage" class="float-left btn btn-info @(Model.PreviousDisabled ? "disabled" : string.Empty)">Prev</a>
     <a href="/Pets/All?page=@Model.NextPage" class="float-right btn btn-info@(Model.NextDisabled ? "disabled" : string.Empty)">Next</a>
 </div>
