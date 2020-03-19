@@ -12,8 +12,8 @@
 
         public string Name { get; set; }
 
-        public ICollection<Food> Food { get; set; } = new HashSet<Food>();
-        public ICollection<Toy> Toys { get; set; } = new HashSet<Toy>();
+        public virtual ICollection<Food> Food { get; set; } = new HashSet<Food>();
+        public virtual ICollection<Toy> Toys { get; set; } = new HashSet<Toy>();
 
     }
 }

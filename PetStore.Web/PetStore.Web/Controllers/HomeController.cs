@@ -28,6 +28,11 @@ namespace PetStore.Web.Controllers
             return View();
         }
 
+        public IActionResult AdminPage()
+        {
+            return RedirectToAction("All", "Admin");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

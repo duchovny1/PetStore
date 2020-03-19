@@ -14,19 +14,19 @@
         public string Name { get; set; }
 
         public DateTime ExpirationDate { get; set; }
-        public int BrandId { get; set; }
-        public Brand Brand { get; set; }
+        public virtual int BrandId { get; set; }
+        public virtual Brand Brand { get; set; }
 
         public double Weight { get; set; }
 
         public decimal DistributorPrice { get; set; }
         public decimal Price { get; set; }
 
-        public int CategoryId { get; set; }
-        public Category Category { get; set; }
+        public virtual int CategoryId { get; set; }
+        public virtual Category Category { get; set; }
 
-        public ICollection<Pet> Pets { get; set; } = new HashSet<Pet>();
+        public virtual ICollection<Pet> Pets { get; set; } = new HashSet<Pet>();
 
-        public ICollection<FoodOrder> FoodOrders { get; set; } = new HashSet<FoodOrder>();
+        public virtual ICollection<FoodOrder> FoodOrders { get; set; } = new HashSet<FoodOrder>();
     }
 }

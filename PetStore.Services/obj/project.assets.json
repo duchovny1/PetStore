@@ -6892,7 +6892,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Repos\\packages": {}
+    "C:\\Users\\rptlonfire\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -6900,13 +6901,16 @@
       "projectUniqueName": "C:\\Repos\\PetStore\\PetStore.Services\\PetStore.Services.csproj",
       "projectName": "PetStore.Services",
       "projectPath": "C:\\Repos\\PetStore\\PetStore.Services\\PetStore.Services.csproj",
-      "packagesPath": "C:\\Repos\\packages",
+      "packagesPath": "C:\\Users\\rptlonfire\\.nuget\\packages\\",
       "outputPath": "C:\\Repos\\PetStore\\PetStore.Services\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Repos\\NuGet.Config",
         "C:\\Users\\rptlonfire\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"

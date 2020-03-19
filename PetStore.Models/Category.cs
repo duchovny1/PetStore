@@ -9,6 +9,7 @@ namespace PetStore.Data.Models
     public class Category
     {
         public int Id { get; set; }
+
         [Required]
         [MaxLength(NameMaxLength)]
         public string Name { get; set; }
@@ -17,11 +18,11 @@ namespace PetStore.Data.Models
         [MaxLength(DescriptionMaxLength)]
         public string Description { get; set; }
 
-        public ICollection<Pet> Pets { get; set; } = new HashSet<Pet>();
+        public virtual ICollection<Pet> Pets { get; set; } = new HashSet<Pet>();
 
-        public ICollection<Food> Food { get; set; } = new HashSet<Food>();
+        public virtual ICollection<Food> Food { get; set; } = new HashSet<Food>();
 
-        public ICollection<Toy> Toys { get; set; } = new HashSet<Toy>();
+        public virtual ICollection<Toy> Toys { get; set; } = new HashSet<Toy>();
 
 
 

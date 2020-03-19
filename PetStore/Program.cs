@@ -9,8 +9,8 @@ namespace PetStore
         {
             using var db = new PetStoreDbContext();
 
-            db.Database.EnsureDeleted();
-            db.Database.EnsureCreated();
+            //db.Database.EnsureDeleted();
+            //db.Database.EnsureCreated();
         }
     }
 }

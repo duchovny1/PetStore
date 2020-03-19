@@ -2,12 +2,12 @@
 {
     public class ToyOrder
     {
-        public int ToyId { get; set; }
+        public virtual int ToyId { get; set; }
 
-        public Toy Toy { get; set; }
+        public virtual Toy Toy { get; set; }
 
-        public int OrderId { get; set; }
+        public virtual int OrderId { get; set; }
 
-        public Order Order { get; set; }
+        public virtual Order Order { get; set; }
     }
 }

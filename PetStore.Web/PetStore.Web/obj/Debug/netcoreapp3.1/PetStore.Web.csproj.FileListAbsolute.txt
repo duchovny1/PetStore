@@ -144,8 +144,12 @@ C:\Repos\PetStore\PetStore.Web\PetStore.Web\bin\Debug\netcoreapp3.1\Microsoft.Ex
 C:\Repos\PetStore\PetStore.Web\PetStore.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Repos\PetStore\PetStore.Web\PetStore.Web\obj\Debug\netcoreapp3.1\PetStore.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Repos\PetStore\PetStore.Web\PetStore.Web\obj\Debug\netcoreapp3.1\Razor\Views\Pets\All.cshtml.g.cs
+C:\Repos\PetStore\PetStore.Web\PetStore.Web\obj\Debug\netcoreapp3.1\Razor\Views\Pets\Delete.cshtml.g.cs
 C:\Repos\PetStore\PetStore.Web\PetStore.Web\bin\Debug\netcoreapp3.1\PetStore.exe
 C:\Repos\PetStore\PetStore.Web\PetStore.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Repos\PetStore\PetStore.Web\PetStore.Web\bin\Debug\netcoreapp3.1\PetStore.dll
 C:\Repos\PetStore\PetStore.Web\PetStore.Web\bin\Debug\netcoreapp3.1\PetStore.pdb
-C:\Repos\PetStore\PetStore.Web\PetStore.Web\obj\Debug\netcoreapp3.1\Razor\Views\Pets\Delete.cshtml.g.cs
+C:\Repos\PetStore\PetStore.Web\PetStore.Web\obj\Debug\netcoreapp3.1\Razor\Views\Categories\All.cshtml.g.cs
+C:\Repos\PetStore\PetStore.Web\PetStore.Web\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Create.cshtml.g.cs
+C:\Repos\PetStore\PetStore.Web\PetStore.Web\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Details.cshtml.g.cs
+C:\Repos\PetStore\PetStore.Web\PetStore.Web\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Edit.cshtml.g.cs

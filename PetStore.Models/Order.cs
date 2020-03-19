@@ -15,9 +15,9 @@
 
         public User User { get; set; }
 
-        public ICollection<Pet> Pets { get; set; } = new HashSet<Pet>();
+        public virtual ICollection<Pet> Pets { get; set; } = new HashSet<Pet>();
 
-        public ICollection<FoodOrder> Orders { get; set; } = new HashSet<FoodOrder>();
-        public ICollection<ToyOrder> ToyOders { get; set; } = new HashSet<ToyOrder>();
+        public virtual ICollection<FoodOrder> Orders { get; set; } = new HashSet<FoodOrder>();
+        public virtual ICollection<ToyOrder> ToyOders { get; set; } = new HashSet<ToyOrder>();
     }
 }

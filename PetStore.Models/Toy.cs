@@ -20,20 +20,20 @@ namespace PetStore.Data.Models
 
         public decimal Price { get; set; }
 
-        public int BrandId { get; set; }
+        public virtual int BrandId { get; set; }
 
-        public Brand Brand { get; set; }
+        public virtual Brand Brand { get; set; }
 
-        public int PetId { get; set; }
+        public virtual int PetId { get; set; }
 
-        public Pet Pet { get; set; }
+        public virtual Pet Pet { get; set; }
 
-        public int CategoryId { get; set; }
+        public virtual int CategoryId { get; set; }
 
 
 
-        public Category Category { get; set; }
-        public ICollection<ToyOrder> ToyOrders { get; set; } = new HashSet<ToyOrder>();
+        public virtual Category Category { get; set; }
+        public virtual ICollection<ToyOrder> ToyOrders { get; set; } = new HashSet<ToyOrder>();
 
     }
 }

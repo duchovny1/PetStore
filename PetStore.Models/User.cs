@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using PetStore.Data.Models.Enums;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace PetStore.Data.Models
@@ -18,6 +19,22 @@ namespace PetStore.Data.Models
 
         public string Telephone { get; set; }
 
-        public ICollection<Order> Orders { get; set; } = new HashSet<Order>();
+
+        [Required]
+        public virtual int RoleId 
+        {
+            get
+            {
+                return (int)this.Role;
+            }
+            set
+            {
+                Role = (UserRoles)value;
+            }
+        }
+
+        [Required]
+        public virtual UserRoles Role { get; set; }
+        public virtual ICollection<Order> Orders { get; set; } = new HashSet<Order>();
     }
 }

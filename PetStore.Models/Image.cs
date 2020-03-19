@@ -9,6 +9,6 @@
 
         public string Description { get; set; }
 
-        public ICollection<Pet> Pets { get; set; } = new HashSet<Pet>();
+        public virtual ICollection<Pet> Pets { get; set; } = new HashSet<Pet>();
     }
 }
